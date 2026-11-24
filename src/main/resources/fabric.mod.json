@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "breadskin",
+  "version": "${version}",
+  "name": "BreadSkin",
+  "description": "Set a server-visible player skin; compatible Geyser servers can show it to Bedrock players too.",
+  "authors": ["BreadSkin"],
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.breadskin.BreadSkin"],
+    "client": ["dev.breadskin.BreadSkinClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric-api": "*"
+  }
+}
